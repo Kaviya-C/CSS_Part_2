@@ -1,0 +1,30 @@
+a{
+text-decoration:underline ;
+font-size: 1.3em;
+cursor:move;
+color: red;;
+}
+
+a:link{
+ color:rgb(51, 7, 226);
+
+}
+
+
+a:visited{
+ color:rgb(51, 7, 226)
+
+}
+
+a:hover{
+ color:rgba(51, 7, 226,0.3);
+
+}
+a:focus{
+ color:yellow;
+ background-color:bisque;
+}
+a:active{
+ color:blueviolet;
+
+}

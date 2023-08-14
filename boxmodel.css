@@ -1,0 +1,33 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+.container{
+border: 7px  double rgb(33, 11, 199);
+
+/* border-top-width:15px;
+border-top-color:red;
+border-right:7px groove blue; */
+font-size: 1.5rem;
+/* 
+margin-top:1.5em;
+margin-right:2em;
+margin-left:3em; */
+margin:1em;
+padding:0.5em;
+outline:5px solid red;
+outline-offset: 10px;
+}
+
+.circle{
+ margin:auto;
+ border:6px solid green;
+ border-radius: 50%;
+ background-color: pink;
+ width:100px;
+ height:100px;
+ outline:5px dashed black;
+ outline-offset: 10px;
+}

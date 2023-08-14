@@ -1,0 +1,12 @@
+body{
+font-size:22px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color:#faebd7;
+color:rgba(255,0,0,1);
+}
+
+p{
+ color:rgba(0, 0, 255, 0.8);
+ color:#000000;
+ /*color:hsla(267,50%,60%,0.9);*/ 
+}

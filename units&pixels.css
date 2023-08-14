@@ -1,0 +1,45 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+header{
+ width:100%;
+}
+
+
+h2{
+ border:3px dashed red;
+ width:50%;
+ font-size:3rem;/* root element * 3 */
+ padding:0.5em; /* em   */
+}
+/* rem -- font size of root element 
+use this rem for font-size
+*/
+
+/* em --font size of parent element
+padding u can use em
+
+
+body{
+ width:100vw;
+}
+
+viewport width mostly not used bcoz this will create scroll bar on the right side and bottom side */
+
+/*
+body{
+ height:100vh;  -- it occupy the full page even though content is not there
+ by default:it occupy the content as much as height needed 
+}*/
+main{
+ background-color:rgb(85, 226, 226);
+ font-size:1rem
+}
+
+p{
+ font-size:1rem;
+ width:85ch;
+}

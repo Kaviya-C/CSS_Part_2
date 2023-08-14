@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lora:ital@1&display=swap');
+
+/*
+typography is the way that text is arranged and presented
+*/
+
+body{
+padding:10%;
+font-size:1.2rem;
+}
+
+button,input{
+ font:inherit;
+}
+
+p{
+ text-transform:capitalize;
+ text-decoration:none;
+ text-align:justify;  
+ text-indent:7em;
+ line-height:2;
+ word-spacing: 0.2em;
+ font-weight:900;
+ font-style: oblique;
+ font-family: 'Dancing Script', cursive;
+font-family: 'Lora', serif;
+}

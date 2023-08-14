@@ -1,0 +1,64 @@
+body{
+ /* this size reflect to all the elements in the body tag which is p tag etc..*/
+ font-size:24px;
+ border: 4px ridge red;
+}
+
+/*element selector: body ,paragraph, div, tag or element*/
+p{
+ color:hotpink;
+}
+
+
+
+/*this is called class selector this is unique we can use same class name for many html elements... if u give two name for class then give space between that*/
+.colorFirst{
+ font-style:oblique;
+color:blue;
+}
+
+/* this is id selector mostly avoid this and it is unique.. only one html elements having this id 
+id having highest preferences bcoz in html document id is unique and it is not present in all elements so use less*/
+#colorSec{
+color:rgb(15, 189, 189)
+}
+
+
+/* Grouping selectors: we can apply the css property to many html elements by using tag seperated by comma
+
+if we not giving comma mean it searches in h2 inside h1 tag is there or not??
+
+*/
+h2,h1{
+ color:chocolate
+}
+
+.highlight{
+ background-color:bisque;
+}
+
+/* universal selector--[ * ] this means all the elements are selected and css property applied
+*/
+
+*{
+font-family:cursive;
+
+}
+
+/* Css works on waterfall model
+if we give first line as paragraph tag color red then last lne 34 or any other line again we giving paragraph tag color blue mean it takes blue color not red color  */
+
+
+/* some elements not inherit the font size directly 
+in that case mention that html element inside write font:inherit automatically font size is changed  
+some of the input we get from user in that case we use below */
+button , input , textarea{
+ font:inherit;
+}
+
+
+/*
+preferences   first ID
+              Second Class
+              third  Psuedo elements,pseudo class
+*/
